@@ -1,9 +1,6 @@
 # deep-learning-challenge
 
-
-
-
-
+In this repository you'll find the *Deep learning Code.ipynb* file where all the ciode for our model is stored, and the *AlphabetSoupCharity.h5* file that host the model made for the challenge in order to be used in future analysis.
 
 ## Overview of the Analysis
 
