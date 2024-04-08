@@ -14,15 +14,19 @@ The whole process left us with 25724 records for 42 different dimensions.
 The last step of our process was building the actual model this was done by setting three different hidden layers all with a `selu` activation function (Scaled Exponential Linear Units) the first receiving 42 input dimensions, and holding 128 perceptron the second hosting 64 and the last 32, at the end we have our outpull layer presenting a `sigmoid` function as activation.
 We then ended our process by compiling our model, fitting it setting the number of epochs to 100 and then saved it for future use as `AlphabetSoupCharity.h5`.
 
+
 ## Results
 
 * Deep Learning Neural Network Model:
 
+    * **Model Accuracy** = 0.73 : This means that our model is able to accurately predict 73% of the training data sample.
+    * **Model Loss** = 0.55 : this value shows the error of our model prediction compared to the actual values of our training dataset.
+    * **Model Speed** = 354 ms/epoch : this data suggests that for each epoch our model took on the average 354 milliseconds.
+   
 
+## Summary
 
-
-    
-
+Overall the model has a good predictive score even if it doesn't get to 75%. That might be due to the diversity of the found raisins characteristics and intents, in fact every one of them might have encounter different difficulties in reaching their goals in the real life environment and that with the diversity of the scope of the various fundraising might have influenced the ability of our model to predict the outcome of some of the ones present in our dataset. These difficulties might be overcomed by adding more information about the amount of people that joined each fundraising and the amount collected by each funder and not just the overall amount collected.
 
 
 All the code for the analysis was made by me with the help of the class materials.
